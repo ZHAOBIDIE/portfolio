@@ -138,15 +138,17 @@ blockquote {
 }
 
 #reflection h2 {
-  margin-left: 0;
-  margin-right: 0;
+  color: #457926;
   border-bottom: 1px solid #457926;
+  margin-bottom: 1em;
   padding-bottom: 5px;
 }
 
-.reflection-section {
-  margin-bottom: 1.5em;
-  padding-left: 20px; 
+.reflection-section p {
+  margin-left: 0;
+  text-indent: 0;
+  line-height: 1.6;
+  margin-bottom: 1em;
 }
 
 
