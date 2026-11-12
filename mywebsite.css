@@ -132,7 +132,7 @@ blockquote {
   text-indent: 0;
   margin-top: 10px;
 }
-#reflection p {
+.reflection p {
   margin-left: 10%
     max-width: 800px
 }
