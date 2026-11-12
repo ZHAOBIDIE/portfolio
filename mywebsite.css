@@ -132,7 +132,17 @@ blockquote {
   text-indent: 0;
   margin-top: 10px;
 }
+#reflection p {
+  margin-left: 10%
+    max-width: 800px
+}
 
+.week-label {
+  display: inline-block;
+  width: 80px;
+  font-weight: bold;
+  color: #457926;
+}
 
 @media (max-width: 768px) {
   body {
