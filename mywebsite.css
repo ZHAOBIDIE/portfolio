@@ -1,48 +1,113 @@
 body {
   margin: 0;
-  background-color: #005f6b; 
+  padding-top: 60px; 
   color: #e0e0e0;
-  font-family: sans-serif;
-  margin-left: 10%;
-  margin-right: 10%
-  padding: 0;
-}
-
-#about, #projects, #reflection {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   margin-left: 10%;
   margin-right: 10%;
-  box-sizing: border-box;
+  line-height: 1.6;
 }
-nav {
-  margin: 0 10%;
-  padding: 10px 0;
+
+
+html {
+  scroll-behavior: smooth;
 }
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+
+h2[id] {
+  scroll-margin-top: 70px; 
 }
-nav li {
-  display: inline-block;
-  margin-right: 15px;
+
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.9);
+  border-bottom: 1px solid #333;
+  z-index: 1000;
 }
-nav a {
-  color: #457926;
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
 }
 
 
 h1 {
-  margin: 20px 10%;
-  font-size: 1.8em;
-  color: #fff;
+  color: #457926;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-left: -8%;
+  margin-top: 20px;
 }
-  
+
 h2 {
   color: #457926;
-  border-bottom: 1px solid #457926;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.7em;
+  border-bottom: 1px solid #457926; /* 优化原solid边框，更现代 */
+  margin-left: -4%;
+  margin-top: 2em;
+  margin-bottom: 1em;
   padding-bottom: 5px;
-  margin-bottom: 1.5em; 
+}
+
+h3 {
+  color: #d4d4d4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 1em;
+}
+
+
+p {
+  font-size: 1.2em;
+  text-indent: 2em;
+  margin-bottom: 1.5em;
+}
+
+blockquote {
+  font-size: 1em;
+  font-style: italic;
+  color: #111;
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 15px;
+  border-left: 5px solid #457926;
 }
 
 .project {
