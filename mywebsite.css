@@ -7,7 +7,9 @@ body {
 }
 
 #about, #projects, #reflection {
-  margin: 2em 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-sizing: border-box;
 }
 
 h2 {
